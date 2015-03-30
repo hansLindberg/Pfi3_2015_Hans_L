@@ -2,18 +2,37 @@ package hansl.assignment_1;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import android.view.View;
+import android.widget.TextView;
+import java.util.Random;
 
 public class MainActivity extends ActionBarActivity {
+
+    Random rand = new Random();
+    int n = 0;
+
+
+    public void buttonOnClick(View v){
+        TextView t1 = (TextView) findViewById(R.id.text1);
+        TextView t2 = (TextView) findViewById(R.id.text2);
+
+        n = rand.nextInt(3);
+
+        String[] quotes = getResources().getStringArray(R.array.quotes);
+        t1.setText(quotes[n]);
+
+    }
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
