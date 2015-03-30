@@ -3,4 +3,10 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="quotes">
+        <item>Shaken, not stirred. - James Bond</item>
+        <item>Fly, you fools! - Gandalf the Grey</item>
+        <item>Go ahead, make my day - Harry Callahan</item>
+    </string-array>
 </resources>
