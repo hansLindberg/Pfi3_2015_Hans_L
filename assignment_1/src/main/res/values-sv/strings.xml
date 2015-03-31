@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="buttonText">Nästa citat</string>
+    <string name="hello_world">Hejsan världen!</string>
+</resources>
