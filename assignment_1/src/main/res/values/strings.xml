@@ -3,10 +3,12 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="buttonText">Next Quote</string>
 
     <string-array name="quotes">
-        <item>Shaken, not stirred. - James Bond</item>
-        <item>Fly, you fools! - Gandalf the Grey</item>
-        <item>Go ahead, make my day - Harry Callahan</item>
+        <item>\"Shaken, not stirred.\"\n - James Bond</item>
+        <item>\"Fly, you fools!\"\n - Gandalf the Grey</item>
+        <item>\"Go ahead, make my day.\"\n - Harry Callahan</item>
+        <item>\"It\'s a trap!\"\n - Admiral Ackbar</item>
     </string-array>
 </resources>

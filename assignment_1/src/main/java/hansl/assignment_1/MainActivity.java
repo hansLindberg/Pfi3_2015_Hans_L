@@ -2,7 +2,6 @@ package hansl.assignment_1;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,11 +18,11 @@ public class MainActivity extends ActionBarActivity {
         TextView t1 = (TextView) findViewById(R.id.text1);
         TextView t2 = (TextView) findViewById(R.id.text2);
 
-        n = rand.nextInt(3);
-
         String[] quotes = getResources().getStringArray(R.array.quotes);
-        t1.setText(quotes[n]);
 
+        n = rand.nextInt(quotes.length);
+
+        t1.setText(quotes[n]);
     }
 
 
@@ -31,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_portrait);
     }
 
     @Override
