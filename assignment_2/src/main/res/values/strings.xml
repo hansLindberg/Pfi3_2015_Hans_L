@@ -1,11 +1,23 @@
 <resources>
     <string name="app_name">assignment_2</string>
     <string name="action_settings">Inställningar</string>
-
-<!-- TODO: Remove or change this placeholder text -->
     <string name="titlePlanner">Reseplanerare</string>
     <string name="titleTimes">Tidtabeller</string>
     <string name="titleStation">Hållplatssök</string>
     <string name="titleTickets">Biljetter</string>
-    <string name="titleHeader">Skånetrafiken</string>
+    <string name="titleHeader" translatable="false">Skånetrafiken</string>
+    <string name="titleHeaderPlanner">Reseplaneraren</string>
+    <string name="plannerTextFrom">Från:</string>
+    <string name="plannerTextTo">Till:</string>
+    <string name="plannerTextTime">Tid/Datum</string>
+    <string name="plannerTextRightNow">Just nu</string>
+    <string name="plannerTextTrafficType">Trafikslag</string>
+    <string name="plannerTextFavourites">Favoritresor</string>
+    <string name="plannerTextWatchlist">Bevakningar</string>
+    <string name="iconShuffle">shuffleicon</string>
+    <string name="plannerEditButton1">Redigera</string>
+    <string name="plannerEditButton2">Redigera</string>
+    <string name="radioButtonArrival">Ankomst</string>
+    <string name="radioButtonDeparture">Avgång</string>
+    <string name="plannerSearchButton">Sök</string>
 </resources>

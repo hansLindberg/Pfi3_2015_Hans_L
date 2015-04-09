@@ -2,19 +2,21 @@ package hansl.assignment_2;
 
 
 import android.os.Bundle;
-import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.app.Fragment;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class planner extends Fragment {
+public class Planner extends Fragment implements View.OnClickListener {
 
 
-    public planner() {
+    public Planner() {
         // Required empty public constructor
     }
 
@@ -26,5 +28,8 @@ public class planner extends Fragment {
         return inflater.inflate(R.layout.fragment_planner, container, false);
     }
 
+    @Override
+    public void onClick(View v) {
 
+    }
 }

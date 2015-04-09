@@ -6,4 +6,19 @@
     <string name="titleStation">Stations</string>
     <string name="titleTickets">Tickets</string>
     <string name="titleTimes">Timetables</string>
+    <string name="titleHeader" translatable="false"></string>
+    <string name="iconShuffle"></string>
+    <string name="plannerTextFrom">From:</string>
+    <string name="plannerTextFavourites">Favourites</string>
+    <string name="plannerSearchButton">Search</string>
+    <string name="plannerEditButton2">Edit</string>
+    <string name="plannerEditButton1">Edit</string>
+    <string name="plannerTextRightNow">Now</string>
+    <string name="plannerTextTime">Time/Date</string>
+    <string name="plannerTextTo">To:</string>
+    <string name="plannerTextTrafficType">Traffic type</string>
+    <string name="plannerTextWatchlist">Watchlist</string>
+    <string name="radioButtonArrival">Arrival</string>
+    <string name="radioButtonDeparture">Departure</string>
+    <string name="titleHeaderPlanner">Planner</string>
 </resources>
