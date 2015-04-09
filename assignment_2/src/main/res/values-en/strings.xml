@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">assignment_2</string>
+    <string name="action_settings">Settings</string>
+    <string name="titlePlanner">Planner</string>
+    <string name="titleStation">Stations</string>
+    <string name="titleTickets">Tickets</string>
+    <string name="titleTimes">Timetables</string>
+</resources>

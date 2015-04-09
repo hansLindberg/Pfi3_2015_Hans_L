@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">assignment_2</string>
+    <string name="action_settings">Inställningar</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="titlePlanner">Reseplanerare</string>
+    <string name="titleTimes">Tidtabeller</string>
+    <string name="titleStation">Hållplatssök</string>
+    <string name="titleTickets">Biljetter</string>
+    <string name="titleHeader">Skånetrafiken</string>
+</resources>
