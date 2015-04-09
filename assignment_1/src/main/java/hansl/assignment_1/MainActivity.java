@@ -41,6 +41,8 @@ public class MainActivity extends ActionBarActivity {
         if(n2 == false){
             t2.setText(quotes[n1]);
         }
+
+
     }
 
 
