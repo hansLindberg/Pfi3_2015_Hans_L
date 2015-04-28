@@ -38,6 +38,8 @@ public class PopupFragment extends DialogFragment implements View.OnClickListene
         t2.setOnClickListener(this);
         i.setOnClickListener(this);
 
+
+
         return v;
     }
 

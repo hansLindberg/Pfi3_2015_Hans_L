@@ -12,7 +12,7 @@
     <style name="MyActionBarLogo" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <item name="android:background">#ff505050</item>
         <item name="logo">@drawable/neptune</item>
-        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="displayOptions">useLogo|showHome</item>
     </style>
 
 </resources>
